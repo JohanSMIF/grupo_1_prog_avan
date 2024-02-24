@@ -1,0 +1,40 @@
+.page{}
+
+.page .headerContent{
+    width: 100vw;
+    height: 100vw;
+    overflow: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 2fr 1fr 4fr 1fr ;
+    grid-template-areas: "header header"
+    "form menu"
+    "body menu"
+    "foter menu";
+}
+img{
+    width: 160px;
+}
+
+.page .menuContent{
+    background-color: black;
+}
+.page .searchContent{
+    background-color: black;
+    grid-area: form;
+}
+
+.page .formContent{
+    background-color: black;
+    
+}
+
+.page .bodyContent{
+ background-color: black;
+}
+
+.page .footerContent{
+    background-color: black;
+}
+
